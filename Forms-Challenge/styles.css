@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(217, 231, 227);
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+
+form {
+    width: 40rem;
+    margin: 3rem auto;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 10px rgb(201, 200, 200);
+    box-sizing: border-box;
+    padding: 1.5rem;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+input, textarea, select {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.35rem;
+    border: 1px solid rgb(184,184,184);
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+    background-color: rgb(219,190,253);
+    color: rgb(32,5,63);
+    border-color: rgb(32, 89, 196);
+}
+
+textarea {
+    resize: vertical;
+}
+
+.form-control-inline {
+    display: flex;
+}
+
+.form-control-inline input {
+    width: auto;
+}
+
+.agree-terms {
+    margin-top: 1rem;
+}
+
+.btn {
+    text-align: right;
+}
+
+.btn button {
+    padding: 0.5rem 1.5rem;
+    font-family: inherit;
+    border-radius: 4px;
+}
+
+#first-btn {
+    border: 1px solid blue;
+}
+
+#first-btn:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+#second-btn {
+    background-color: rgb(32,5,63);
+    color: white;
+    border: 1px solid rgb(32,5,63);
+}
+
+#second-btn:hover {
+    background-color: rgb(32, 30, 70);
+    cursor: pointer;
+}
