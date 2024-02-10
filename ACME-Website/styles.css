@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    background-color: rgb(58, 55, 55);
+}
+
+#page-logo a {
+    color: orangered;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+header li {
+    margin-left: 1.5rem;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: orange;
+}
+
+#hero {
+    height: 32rem;
+    background-image: url('/images/ocean.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content {
+  width: 70%;
+  padding: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 3rem;
+  color: rgb(20, 14, 14);
+}
+
+#hero-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+#hero-content p {
+    color: white;
+    font-size: 1rem;
+}
+
+#newsletter {
+    background-color: rgb(58, 55, 55);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+#newsletter h2 {
+    margin: 0;
+    color: white;
+}
+
+#news-form input {
+    padding: 0.5rem;
+}
+
+#news-form button {
+    padding: 0.5rem;
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+}
+
+#news-form button:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+#highlights {
+    width: 90%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+#highlights img {
+    width: 100%;
+    height: 15rem;
+    object-fit: fill;
+}
+
+.destination {
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 6px;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+    color: white;
+    padding: 1rem 1.5rem;
+}

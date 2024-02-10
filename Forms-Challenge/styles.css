@@ -91,3 +91,9 @@ textarea {
     background-color: rgb(32, 30, 70);
     cursor: pointer;
 }
+
+@media (max-width:768px){
+    form{
+        width: 20rem;
+    }
+}
