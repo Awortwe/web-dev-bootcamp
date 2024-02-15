@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Test",
+        "address": "Test address",
+        "cuisine": "Italian",
+        "website": "https://google.com",
+        "description": "Highly recommended"
+    },
+    {
+        "name": "Test 2",
+        "address": "Test address 2",
+        "cuisine": "Mexican",
+        "website": "https://mexican.com",
+        "description": "Highly recommended\r\n\r\n"
+    },
+    {
+        "name": "Restaurant 3",
+        "address": "restaurant 3 address",
+        "cuisine": "Indian",
+        "website": "https://indian.com",
+        "description": "Low recommendation"
+    }
+]
